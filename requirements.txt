@@ -96,10 +96,10 @@ tifffile==2025.5.10
 tokenizers==0.22.0
 torch==2.8.0
 torch-geometric==2.6.1
-torch_cluster==1.6.3+pt28cpu
-torch_scatter==2.1.2+pt28cpu
-torch_sparse==0.6.18+pt28cpu
-torch_spline_conv==1.2.2+pt28cpu
+#torch_cluster==1.6.3+pt28cpu
+#torch_scatter==2.1.2+pt28cpu
+#torch_sparse==0.6.18+pt28cpu
+#torch_spline_conv==1.2.2+pt28cpu
 torchvision==0.23.0
 tqdm==4.67.1
 transformers==4.56.1
