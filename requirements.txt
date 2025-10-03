@@ -95,7 +95,7 @@ threadpoolctl==3.6.0
 tifffile==2025.5.10
 tokenizers==0.22.0
 torch==2.8.0
-torch-geometric==2.6.1
+#torch-geometric==2.6.1
 #torch_cluster==1.6.3+pt28cpu
 #torch_scatter==2.1.2+pt28cpu
 #torch_sparse==0.6.18+pt28cpu
