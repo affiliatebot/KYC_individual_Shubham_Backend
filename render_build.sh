@@ -2,6 +2,9 @@
 # Upgrade pip
 pip install --upgrade pip
 
+# Downgrade NumPy to compatible version
+pip install numpy==1.25.0
+
 #  Install PyTorch CPU
 pip install torch==2.1.1+cpu torchvision==0.16.1+cpu torchaudio==2.1.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 
@@ -13,5 +16,5 @@ pip install torch-scatter==2.1.2+pt21cpu \
             torch-geometric==2.6.1 \
             -f https://data.pyg.org/whl/torch-2.1.1+cpu.html
 
-#  Install the rest of your dependencies
+#  Install remaining dependencies
 pip install -r requirements.txt
