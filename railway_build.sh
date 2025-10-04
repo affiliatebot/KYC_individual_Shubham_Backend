@@ -19,7 +19,7 @@ python -m pip install --upgrade pip
 # --------------------------
 # Install CPU-only PyTorch + torchvision + torchaudio
 # --------------------------
-pip install torch==2.8.0 torchvision==0.18.1 torchaudio==2.8.0
+pip install torch==2.8.0 torchvision  torchaudio==2.8.0
 
 
 # --------------------------
