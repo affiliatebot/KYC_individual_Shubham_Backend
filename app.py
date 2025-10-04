@@ -649,7 +649,7 @@ def extract_aadhaar():
                 dpi=300,
                 first_page=1,
                 last_page=1,
-                poppler_path=r"C:\poppler\poppler-25.07.0\Library\bin"
+                poppler_path="/usr/bin"
             )
         except Exception as e:
             return jsonify({"error": f"Failed to convert PDF: {e}"}), 400
@@ -905,7 +905,7 @@ def extract_pan():
                 dpi=300,
                 first_page=1,
                 last_page=1,
-                poppler_path=r"C:\poppler\poppler-25.07.0\Library\bin"
+                poppler_path="/usr/bin"
             )
         except Exception as e:
             return jsonify({"error": f"Failed to convert PDF: {e}"}), 400
