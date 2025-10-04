@@ -15,9 +15,9 @@ python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 
-# ---------------- PyTorch ----------------
+# ---------------- PyTorch (CPU only) ----------------
 pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 \
-    --extra-index-url https://download.pytorch.org/whl/cu121
+    --extra-index-url https://download.pytorch.org/whl/cpu
 
 # ---------------- PyTorch Geometric (CPU wheels) ----------------
 pip install torch-scatter==2.1.2+cpu \
