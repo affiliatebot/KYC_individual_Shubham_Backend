@@ -648,8 +648,7 @@ def extract_aadhaar():
                 pdf_bytes,
                 dpi=300,
                 first_page=1,
-                last_page=1,
-                poppler_path="/usr/bin"
+                last_page=1
             )
         except Exception as e:
             return jsonify({"error": f"Failed to convert PDF: {e}"}), 400
@@ -904,8 +903,7 @@ def extract_pan():
                 pdf_bytes,
                 dpi=300,
                 first_page=1,
-                last_page=1,
-                poppler_path="/usr/bin"
+                last_page=1
             )
         except Exception as e:
             return jsonify({"error": f"Failed to convert PDF: {e}"}), 400
